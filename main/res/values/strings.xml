@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Altimetrik</string>
+
+    <!--App Level-->
+    <!--Vehicle Id Activity-->
+    <string name="vehicle_title">Welcome User!</string>
+    <string name="vehicle_id_title">Enter Vehicle Id</string>
+    <string name="preference_file_key">com.altimetrikpg.android-pref</string>
+    <string name="preference_file_veh_id">com.altimetrikpg.android-vehid</string>
+
+    <!--Vehicle Image Activity-->
+    <string name="vehicle_detail_title">Vehicle Details</string>
+    <string name="vehicle_image_title">Vehicle Image</string>
+
+    <!--Errors-->
+    <string name="data_empty_error">Enter mandatory fields!</string>
+    <string name="error_message">Error Fetching Data</string>
+</resources>

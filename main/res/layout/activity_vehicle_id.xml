@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/vertical_padding"
+    tools:context=".view.impl.VehicleIdActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/vehicle_id_title" />
+
+    <EditText
+        android:id="@+id/vehicle_id_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_padding"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:text="WDD1760421J123456" />
+
+</LinearLayout>
